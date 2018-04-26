@@ -16,6 +16,7 @@ class EmailParser
     array_temp = []
     array_temp = @emails.split(/[,\s]+/)
     @@all = array_temp.uniq
+    @@all
   end
   
   
