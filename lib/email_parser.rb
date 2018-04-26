@@ -13,7 +13,8 @@ class EmailParser
   end
   
   def parse
-    
+    array_temp = []
+    array_temp = @emails.split
   end
   
   
